@@ -5,9 +5,9 @@ if (jwt == null) {
 
 function loadUser() {
     const xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "https://restapi.tu.ac.th/api/v2/profile/std/info/?id=6209610234");
+    xhttp.open("GET", "https://restapi.tu.ac.th/api/v2/profile/std/info/?id=XXXXXXXXXX");
     xhttp.setRequestHeader("Content-Type", "application/json");
-    xhttp.setRequestHeader("Application-Key", "TU0261e56e18732dfbc1e37a3d1de235bc7274857639ea4534c3c6b55392bbc939a3f90b04f5b03905d31e344d32dd2b6b");
+    xhttp.setRequestHeader("Application-Key", "use your won access token");
     xhttp.send();
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4) {
